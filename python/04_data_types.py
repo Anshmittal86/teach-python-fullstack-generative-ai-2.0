@@ -1,31 +1,32 @@
 # Data type:- Type of the data which are stored in the variable.
 
-# number :- store numbers (10, 5.45 etc.)
-total_score = 100
-print(f"Your score is {total_score}.")
+# MOST COMMON TYPE
 
-# string:- stores text
-name = input("Enter your name: ")
-print(name)
+# string 
+movie_name = 'Avengers'
+print(movie_name, type(movie_name))
 
-# complex number
-cnum = 3 + 4j
-print(cnum)
+# int (whole number) 10, 5, -5
+release_year = 2019
+print(release_year, type(release_year))
 
-# Boolean :- True and False
-is_student = True
-print(is_student)
+# float (decimal number)
+movie_rating = 8.4
+print(movie_rating, type(movie_rating))
 
+# bool (True or False)
+is_hit = True
+print(is_hit, type(is_hit))
 
-# type check
-name = "Aman"
-print(name, type(name))
+# list 
+favorite_movies = ["Avengers", "Iron Man", "Batman"]
+print(favorite_movies, type(favorite_movies))
 
-age = 10
-print(age, type(age))
+# tuple
+top_movie = ("Avengers", "Interstellar", "Joker")
+print(top_movie, type(top_movie))
 
-is_login = False
-print(is_login, type(is_login))
+# set 
+unique_genres = {"Action", "Sci-FI", "Drama"}
+print(unique_genres, type(unique_genres))
 
-cnum = 4 + 6j
-print(cnum, type(cnum))
