@@ -30,3 +30,20 @@ print(top_movie, type(top_movie))
 unique_genres = {"Action", "Sci-FI", "Drama"}
 print(unique_genres, type(unique_genres))
 
+# dictionary
+movie = {
+    "name": "Avengers",
+    "year": 2019,
+    "rating": 8.4
+}
+print(movie, type(movie))
+
+# none
+next_movie = None
+print(next_movie, type(next_movie))
+
+# Another useful data types
+
+# range
+movie_numbers = range(1, 4)
+print(movie_numbers, type(movie_numbers))
