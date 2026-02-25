@@ -36,6 +36,7 @@ movie = {
     "year": 2019,
     "rating": 8.4
 }
+
 print(movie, type(movie))
 
 # none
