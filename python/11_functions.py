@@ -20,7 +20,7 @@ greet()
 def greet_name(name):
     print(f'Welcome to the Theater {name}')
 
-greet_name("Aman")
+greet_name("Aman") 
 greet_name("Rahul")
 
 # function with return 
@@ -48,17 +48,17 @@ def total_sum(*numbers):
         sum += number
     return sum
 
-total_sum = total_sum(2, 3, 4, 5, 5, 6, 7, 8, 8)
+total_sum = total_sum(2, 3, 4, 5, 5, 6, 7, 8, 8, 8)
 print(f"Total Sum: {total_sum}")
 
 
 # Arbitrary Keyword Arguments :- Used to store multiple keyword value inside dictionary (generally many developer use kwargs as a name but you can use any name)
 
 def greet_user(**kwargs):
-    for key in kwargs.items():
+    for key in kwargs:
         print(key)
         
-    for key, value in kwargs.values():
+    for value in kwargs.values():
         print(value)
     
     for key, value in kwargs.items():
