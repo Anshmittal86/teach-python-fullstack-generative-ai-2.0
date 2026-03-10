@@ -1,5 +1,7 @@
 # Variable:- Variable is like a container which can store a value so that we can use later in the code.
 
+# note:- Variable are stored in object in the python
+
 # name = input("Enter your name: ")
 # print("Your name is " + name)
 
