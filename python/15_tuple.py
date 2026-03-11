@@ -15,7 +15,6 @@ print(seats)
 seats = ("Rahul", "Ankit", "Priya")
 print(seats)
 
-
 # Creating Tuple without parentheses
 seats = "Rahul", "Ankit", "Priya"
 print(seats)
