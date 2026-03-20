@@ -1,3 +1,5 @@
+# Decorator:- A decorator is a function that takes a function as an argument and returns a new function.
+
 import time
 import functools
 

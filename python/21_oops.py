@@ -1,51 +1,51 @@
 # 1. Basic Class and Object:- create a car class with attributes like brand and model. Then create an instance of this class
 
-# class Car:
-#     def __init__(self, brand, model):
-#         self.brand = brand
-#         self.model = model
+class Car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
         
-# my_car = Car("Lamborghini", "Aventador", "Ultra")
-# print(my_car.brand)
-# print(my_car.model)
+my_car = Car("Lamborghini", "Aventador", "Ultra")
+print(my_car.brand)
+print(my_car.model)
 
 
 # 2. Class Method and Self: Add a method to the Car Class that displays the full name of the car (brand and model)
 
-# class Car:
-#     def __init__(self, brand, model):
-#         self.brand = brand
-#         self.model = model
+class Car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
     
-#     def full_name(self):
-#         print(f"{self.brand} {self.model}")
+    def full_name(self):
+        print(f"{self.brand} {self.model}")
 
-# my_car = Car("Toyota", "Camry")
+my_car = Car("Toyota", "Camry")
 
-# print(my_car.brand)
-# print(my_car.model)
+print(my_car.brand)
+print(my_car.model)
 
-# print(my_car.full_name())
+print(my_car.full_name())
 
 # 3. Inheritance:- Create a ElectricCar class that inherit from the car class and has addtional attribute battery_size
 
-# class Car:
-#     def __init__(self, brand, model):
-#         self.brand = brand
-#         self.model = model
+class Car:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
 
-#     def full_name(self):
-#         print(f"{self.brand} {self.model}")
+    def full_name(self):
+        print(f"{self.brand} {self.model}")
 
-# class ElectricCar(Car):
-#     def __init__(self, brand, model, battery_size):
-#         super().__init__(brand, model)
-#         self.battery_size = battery_size
+class ElectricCar(Car):
+    def __init__(self, brand, model, battery_size):
+        super().__init__(brand, model)
+        self.battery_size = battery_size
 
-# my_tesla = ElectricCar("Tesla", "Model 5", "100kwh")
-# print(my_tesla.battery_size)
-# print(my_tesla.brand)
-# print(my_tesla.model)
+my_tesla = ElectricCar("Tesla", "Model 5", "100kwh")
+print(my_tesla.battery_size)
+print(my_tesla.brand)
+print(my_tesla.model)
 
 # 4. Encapsulation:- Modify the Car calss to encapsulate the brand attribute. making it private, and provide a getter method for it.
 

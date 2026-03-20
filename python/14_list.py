@@ -31,14 +31,14 @@ print(movies[-1])
 # List slicing extracts part of the list
 # print(movies[start:end:step])
 print(movies[0:3])
-print(movies[:2]) # always start from 0
-print(movies[1:]) # always end to -1 
-print(movies[:]) # always return a new copy 
+print(movies[:2])   # always start from 0
+print(movies[1:])   # always end to -1 
+print(movies[:])    # always return a new copy 
 
 print(movies[-4:-1])
-print(movies[:-1]) # always start from 0
-print(movies[-4:]) # always end to -1 
-print(movies[:]) # always return a new copy 
+print(movies[:-1])  # always start from 0
+print(movies[-4:])  # always end to -1 
+print(movies[:])    # always return a new copy 
 
 # List methods
 

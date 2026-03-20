@@ -2,30 +2,30 @@
 
 # note:- Variable are stored in object in the python
 
-# name = input("Enter your name: ")
-# print("Your name is " + name)
+name = input("Enter your name: ")
+print("Your name is " + name)
 
 
 # Your name is ----- and you order ----.
-# name = input("Enter your name: ")
-# food = input("Enter your order: ")
-# print("Your name is " + name + " and you order " + food + ".")
-# print(f"Your name is {name} and you order {food}.")
+name = input("Enter your name: ")
+food = input("Enter your order: ")
+print("Your name is " + name + " and you order " + food + ".")
+print(f"Your name is {name} and you order {food}.")
 
 
 # Task:- Take name and age from the user and print it.
-# name = input("Enter your name: ")
-# age = input("Enter your age: ")
-# print(f"Your name is {name} and you are {age} year old.")
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print(f"Your name is {name} and you are {age} year old.")
 
 # Multiple Assignment
 # a = 1
 # b = 2
 # c = 3
-# a, b, c = 1, 2, 3
+a, b, c = 1, 2, 3
 
 # Same Value to multiple Variable
-# a = b = c = 1
+a = b = c = 1
 
 
 # Variable Naming Rules:

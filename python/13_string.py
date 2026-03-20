@@ -17,15 +17,15 @@ print(movie[-1])
 
 # print(movie[start:end:step])
 print(movie[2:5:2])
-print(movie[:4]) # always start from 0 
-print(movie[0:]) # always end to -1 
-print(movie[:]) # always return a new copy 
+print(movie[:4])    # always start from 0 
+print(movie[0:])    # always end to -1 
+print(movie[:])     # always return a new copy 
 
 # print(movie[start:end:step])
 print(movie[-4:-1])
-print(movie[:-1]) # always start from 0
-print(movie[-4:]) # always end to -1 
-print(movie[:]) # always return a new copy 
+print(movie[:-1])   # always start from 0
+print(movie[-4:])   # always end to -1 
+print(movie[:])     # always return a new copy 
 
 
 # string concatenation join two or more string

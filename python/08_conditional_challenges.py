@@ -110,24 +110,16 @@ else:
 
 age = int(input("Enter your age: "))
 has_ticket = input("Do you have ticket(yes/no and Y/N): ")
-
 is_vip = input("Do you have VIP ticket(yes/no and Y/N): ")
 
-if is_vip == 'yes' or is_vip == 'Y' and is_vip == 'no' or is_vip == "N":
-    is_vip = True
-else:
-    is_vip = False
-
-if has_ticket == 'yes' or has_ticket == 'Y' and has_ticket == 'no' or has_ticket == "N":
-    has_ticket = True
-else:
-    has_ticket = False
+has_ticket = has_ticket == 'yes' or has_ticket == 'Y'
+is_vip = is_vip == 'yes' or is_vip == 'Y'
 
 if age < 18:
     print("Entry Denied")
-elif is_vip and has_ticket:
-    print('VIP Entry Allowed')
-elif has_ticket or is_vip:
-    print('Entry Allowed')
+elif has_ticket:
+    print("Entry Allowed")
+elif is_vip:
+    print("VIP Entry Allowed")
 else:
-    print('Entry Denied')
+    print("Entry Denied")

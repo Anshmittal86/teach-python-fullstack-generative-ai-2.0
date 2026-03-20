@@ -31,13 +31,13 @@ print(2 ** 3) # 8
 
 a = 10
 
-a += 5 # a = a + 5
-a -= 5 # a = a - 5
-a *= 5 # a = a * 5
-a /= 5 # a = a / 5
-a //= 5 # a = a // 5
-a %= 5 # a = a % 5
-a **= 5 # a = a ** 5
+a += 5      # a = a + 5
+a -= 5      # a = a - 5
+a *= 5      # a = a * 5
+a /= 5      # a = a / 5
+a //= 5     # a = a // 5
+a %= 5      # a = a % 5
+a **= 5     # a = a ** 5
 
 # Comparison Operator
 
@@ -70,7 +70,7 @@ print(5 > 2 and 4 < 1) # False
 print(5 > 2 or 4 < 1) # True
 
 # not
-print(not(5 > 2 or 4 < 1))
+print(not(5 > 2 or 4 < 1)) # False
 
 
 # Identity Operator
