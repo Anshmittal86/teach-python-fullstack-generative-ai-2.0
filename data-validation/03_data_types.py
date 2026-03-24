@@ -1,0 +1,17 @@
+from pydantic import BaseModel
+from typing import List, Dict, Set, Tuple
+
+class Employee(BaseModel):
+    name: str 
+    age: int
+    email: str
+    salary: float = 10_000.00
+    is_login: bool = False
+    skills: List[str]
+    score: Dict[str, int] 
+    tags: Set[str]
+    coordinate: Tuple[float, float]
+    
+employee = Employee(name='aman',age=12,email='abc@gmail.com',salary=12_000, skills=["html", "css", "js", "genai"], score={ "html": 98, "css": 50, "js": 100 },tags={"html", "css", "js"},coordinate=(2.45, 5.67))
+
+print(employee)
